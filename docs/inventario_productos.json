@@ -1,0 +1,26 @@
+[
+  {
+    "id": "PROD-001",
+    "nombre": "Cepillo de Dientes de Bambú Biodegradable",
+    "precio": 4.99,
+    "stock": 150,
+    "categoria": "Cuidado Personal",
+    "descripcion": "Cepillo con cerdas de fibra de bambú 100% compostable."
+  },
+  {
+    "id": "PROD-002",
+    "nombre": "Detergente Ecológico de Lavanda (1L)",
+    "precio": 12.50,
+    "stock": 45,
+    "categoria": "Hogar",
+    "descripcion": "Detergente biodegradable libre de fosfatos y sulfatos."
+  },
+  {
+    "id": "PROD-003",
+    "nombre": "Botella Térmica de Acero Inoxidable (750ml)",
+    "precio": 22.00,
+    "stock": 80,
+    "categoria": "Accesorios",
+    "descripcion": "Mantiene bebidas frías por 24 horas y calientes por 12 horas."
+  }
+]
