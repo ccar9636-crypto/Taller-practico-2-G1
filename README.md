@@ -1,6 +1,9 @@
 # Taller Práctico #2: Sistema RAG para EcoMarket
 **Caso de Estudio:** Optimización de la Atención al Cliente en E-commerce mediante Generación Aumentada por Recuperación (RAG).
 
+**Integrantes:**
+- Deibi Bastidas Cerón.
+- Camilo Arciniegas Forero.
 ---
 
 ## Fase 1: Selección de Componentes Clave del Sistema RAG
