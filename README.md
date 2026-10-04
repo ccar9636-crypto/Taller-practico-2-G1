@@ -64,3 +64,31 @@ El script ejecutable se encuentra en `rag_ejemplo.py`.
 ### Limitaciones y Suposiciones:
 1. **Recursos de Cómputo:** Se utiliza un modelo de embeddings ligero local para garantizar la ejecución fluida en entornos locales sin depender de claves API de pago.
 2. **Escalabilidad Vectorial:** ChromaDB en modo embebido es óptimo para prototipos; para un entorno de producción con millones de registros se asumiría la migración a un clúster de Qdrant o Pinecone.
+
+---
+
+## Instrucciones de Instalación y Ejecución
+
+Este proyecto utiliza **`uv`** como gestor moderno de entornos virtuales y dependencias para Python.
+
+### Requisitos Previos
+* Python 3.10 o superior
+* `uv` instalado (`brew install uv` o `curl -LsSf https://astral.sh/uv/install.sh | sh`)
+
+### Pasos de Ejecución
+
+1. **Sincronizar el entorno virtual e instalar dependencias:**
+   ```bash
+   uv sync
+   ```
+
+2. **Ejecutar el sistema RAG de atención al cliente:**
+   ```bash
+   uv run rag_ejemplo.py
+   ```
+
+3. **Ejecutar la evaluación cuantitativa de métricas y generación de gráficos:**
+   ```bash
+   uv run evaluacion_metricas.py
+   ```
+   *Nota: Este comando genera automáticamente el reporte gráfico `metricas_rag.png`.*
